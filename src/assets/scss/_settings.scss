@@ -58,13 +58,13 @@ $global-font-color: $black;
 $body-font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 $global-font-weight: lighter;
 $header-color: inherit;
-$global-line-height: 1.3;
+$global-line-height: 1.2;
 $global-font-size: 16px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
-$h1-font-size: 25px;
-$h2-font-size: 30px;
+$h1-font-size: 43px;
+$h2-font-size: 25px;
 $h3-font-size: 28px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
@@ -97,7 +97,7 @@ $stat-font-size: 40px;
 $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
+  default: 11px 17px 11px 17px,
   large: 10px 20px 10px 20px,
 );
 $button-font-size: (

@@ -18,7 +18,7 @@ html,
   background-color: #4EDEB5;
 
   .columns {
-    h1 {
+    h2 {
       color: #ffffff;
       padding-bottom: 0;
       text-transform: uppercase;
@@ -43,6 +43,47 @@ html,
         font-size: 13px;
         color: #383838;
         font-weight: 100;
+      }
+    }
+  }
+}
+// South Header Section
+// --------------------------
+.south-header {
+  background: #383838;
+  background-color: #383838;
+
+  .columns {
+    h1 {
+      color: #4EDEB5;
+      hyphens: none;
+    }
+
+    p {
+      color: #ffffff;
+      hyphens: none;
+      font-size: 14px;
+      font-weight: 100;
+      padding-right: 54px;
+      line-height: 1.7;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      a {
+        font-size: 12px;
+        font-weight: 100;
+        color: #4EDEB5;
+      }
+    }
+
+    .ghost-button {
+      
+      table td {
+        border: 1px solid #4EDEB5;
+        background: #383838;
+        background-color: #383938;
       }
     }
   }
