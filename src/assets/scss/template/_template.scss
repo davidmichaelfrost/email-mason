@@ -7,12 +7,14 @@ html,
 .body {
   background: #000000 !important;
   background-color: #000000 !important;
+  padding-bottom: 300px;
 }
 
 // Header Section
-// --------------------------
+// -------------------------------------------
+
 // North Header Section
-// --------------------------
+// -------------------------------------------
 .north-header {
   background: #4EDEB5;
   background-color: #4EDEB5;
@@ -47,8 +49,11 @@ html,
     }
   }
 }
+// -------------------------------------------
+// End of North Header Section
+
 // South Header Section
-// --------------------------
+// -------------------------------------------
 .south-header {
   background: #383838;
   background-color: #383838;
@@ -88,3 +93,8 @@ html,
     }
   }
 }
+//--------------------------------------------
+// End of South Header Section
+
+//--------------------------------------------
+// End of Header Section
