@@ -26,10 +26,23 @@ html,
     }
 
     .menu {
+      .menu-item{
+        padding-left: 0;
+
+        .nav-facebook-icon {
+          padding-right: 12px;
+        }
+
+        .nav-twitter-icon {
+          padding-left: 15px;
+          padding-right: 20px;
+        }
+      }
+      
       a {
         font-size: 13px;
         color: #383838;
-        font-weight: 200;
+        font-weight: 100;
       }
     }
   }
