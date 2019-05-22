@@ -5,5 +5,96 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #000000 !important;
+  background-color: #000000 !important;
+  padding-bottom: 300px;
 }
+
+// Header Section
+// -------------------------------------------
+
+// North Header Section
+// -------------------------------------------
+.north-header {
+  background: #4EDEB5;
+  background-color: #4EDEB5;
+
+  .columns {
+    h2 {
+      color: #ffffff;
+      padding-bottom: 0;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .menu {
+      .menu-item{
+        padding-left: 0;
+
+        .nav-facebook-icon {
+          padding-right: 12px;
+        }
+
+        .nav-twitter-icon {
+          padding-left: 15px;
+          padding-right: 20px;
+        }
+      }
+      
+      a {
+        font-size: 13px;
+        color: #383838;
+        font-weight: 100;
+      }
+    }
+  }
+}
+// -------------------------------------------
+// End of North Header Section
+
+// South Header Section
+// -------------------------------------------
+.south-header {
+  background: #383838;
+  background-color: #383838;
+
+  .columns {
+    h1 {
+      color: #4EDEB5;
+      hyphens: none;
+    }
+
+    p {
+      color: #ffffff;
+      hyphens: none;
+      font-size: 14px;
+      font-weight: 100;
+      padding-right: 54px;
+      line-height: 1.7;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      a {
+        font-size: 12px;
+        font-weight: 100;
+        color: #4EDEB5;
+      }
+    }
+
+    .ghost-button {
+      
+      table td {
+        border: 1px solid #4EDEB5;
+        background: #383838;
+        background-color: #383938;
+      }
+    }
+  }
+}
+//--------------------------------------------
+// End of South Header Section
+
+//--------------------------------------------
+// End of Header Section
