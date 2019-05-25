@@ -5,15 +5,17 @@ subject: Mason Email
 
 <!-- Blog Mason Section Start -->
 <container>
-  <row>
+  <row class="blog-mason">
     <columns large="2"></columns>
     <columns>
+      <spacer size="60"></spacer>
       <h2 class="text-center">Masonry Blog</h2>
+      <spacer size="50"></spacer>
       <row>
         <!-- West Column Start -->
         <columns large="6">
           <!-- North West Column Start -->
-          <row>
+          <row class="north-west">
             <columns>
               <h3>Going Masonry Style!</h3>
               <p></p>
@@ -23,7 +25,7 @@ subject: Mason Email
           </row>
           <!-- North West Column End -->
           <!-- South West Column Start -->
-          <row>
+          <row class="south-west">
             <columns>
               <img>
               <h3>Top 7 Wireless Enterprise Solutions</h3>
@@ -37,20 +39,32 @@ subject: Mason Email
         <!-- West Column End -->
         <!-- East Column Start -->
         <columns large="6">
-          <img>
-          <h3>Top Three Famous Collectibles</h3>
-          <p></p>
-          <p>Hacker have stolen as much as $1 billion fron banks around the world, according to a prominent cybersecurity firm...</p>
-          <button>Read More</button>
-        </columns>
-        <columns>
-          <img src="" alt="">
+          <!-- North East Column Start -->
+          <row class="north-east">
+            <columns>
+              <img>
+              <h3>Top Three Famous Collectibles</h3>
+              <p></p>
+              <p>Hacker have stolen as much as $1 billion fron banks around the world, according to a prominent cybersecurity firm...</p>
+              <button>Read More</button>
+            </columns>
+          </row>
+          <!-- North East Column End -->
+          <!-- South East Column Start -->
+          <row>
+            <columns>
+              <img src="" alt="">
+            </columns>
+          </row>
+          <!-- South East Column End -->
         </columns>
         <!-- East Column End -->
       </row>
       <row>
         <columns>
+          <spacer size="55"></spacer>
           <button href="#">More Articles</button>
+          <spacer size="55"></spacer>
         </columns>
       </row>
     </columns>
