@@ -105,17 +105,43 @@ html,
   background: #F3F3F3;
   background-color: #F3F3F3;
 
+  .columns {
+    h2 {
+      font-size: 38px;
+      font-weight: 100;
+      color: #383838;
+    }
+  }
+  
   // West Column
   // North West Column
   .north-west {
     background: #FFFFFF;
     background-color: #FFFFFF;
+
+    .columns {
+      padding-left: 42px !important;
+      
+      h3 {
+        font-size: 24px;
+        color: #383838;
+      }
+
+      p {
+        padding-right: 42px !important;
+      }
+    }
   }
 
   // South West Column
   .south-west {
     background: #4EDEB5;
     background-color: #4EDEB5;
+
+    .columns {
+      padding-left: 42px !important;
+      padding-right: 42px !important;
+    }
   }
 
 
@@ -124,6 +150,11 @@ html,
   .north-east {
     background: #383838;
     background-color: #383838;
+
+    .columns {
+      padding-left: 42px !important;
+      padding-right: 42px !important;
+    }
   }
 
   // South East Column
