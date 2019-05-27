@@ -127,8 +127,41 @@ html,
         color: #383838;
       }
 
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date {
+        color: #4EDEB5;
+        font-size: 12px;
+      }
+
       p {
-        padding-right: 42px !important;
+        padding-right: 41px !important;
+        font-size: 14px;
+        color: #383838;
+        line-height: 1.8;
+        hyphens: none;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #FFFFFF;
+          background-color: #FFFFFF;
+          border: 1px solid #4EDEB5; 
+        }
+
+        a {
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #4EDEB5;
+          font-size: 12px;
+          font-weight: 100;
+        }
       }
     }
   }
@@ -141,9 +174,50 @@ html,
     .columns {
       padding-left: 42px !important;
       padding-right: 42px !important;
+
+      h3 {
+        font-size: 24px;
+        color: #ffffff;
+        hyphens: none;
+      }
+
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date-light {
+        color: #ffffff;
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 1.8;
+        hyphens: none;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #4EDEB5;
+          background-color: #4EDEB5;
+          border: 1px solid #FFFFFF; 
+        }
+
+        a {
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #FFFFFF;
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
     }
   }
-
 
   // East Column
   // North East Column
@@ -153,7 +227,50 @@ html,
 
     .columns {
       padding-left: 42px !important;
-      padding-right: 42px !important;
+      padding-right: 35px !important;
+
+      h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+        hyphens: none;
+      }
+
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date {
+        color: #4EDEB5;
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #FFFFFF;
+        hyphens: none;
+        line-height: 1.8;
+        padding-right: 10px;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #383838;
+          background-color: #383838;
+          border: 1px solid #4EDEB5; 
+        }
+
+        a {
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #4EDEB5;
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
     }
   }
 
