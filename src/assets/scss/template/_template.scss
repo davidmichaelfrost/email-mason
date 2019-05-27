@@ -274,13 +274,27 @@ html,
     }
   }
 
-  // South East Column
-  .south-east {
-    
+  // Expanded button section
+  .expanded-button {
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: none; 
+      }
+
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #4EDEB5;
+        font-size: 12px;
+        font-weight: 100;
+      }
+    }
   }
 }
-
-
 
 //--------------------------------------------
 // End of Blog Mason Section
