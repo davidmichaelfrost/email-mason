@@ -298,3 +298,58 @@ html,
 
 //--------------------------------------------
 // End of Blog Mason Section
+
+// Top Writers Section
+//--------------------------------------------
+.top-writers {
+  background: #4EDEB5;
+  background-color: #4EDEB5;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      color: #383838;
+    }
+
+    h3 {
+     font-size: 23px;
+     color: #FFFFFF; 
+    }
+
+    h4 {
+      font-size: 13px;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      padding-right: 10px;
+      hyphens: none;
+    }
+
+    .button {
+      text-transform: uppercase;
+      margin: 0 auto;
+
+      table td {
+        background: #4EDEB5;
+        background-color: #4EDEB5;
+        border: 1px solid #FFFFFF;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+//---------------------------------------------
+// End of Top Writers Section
