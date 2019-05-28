@@ -324,10 +324,13 @@ html,
     p {
       font-size: 14px;
       color: #383838;
+      padding-right: 10px;
+      hyphens: none;
     }
 
     .button {
       text-transform: uppercase;
+      margin: 0 auto;
 
       table td {
         background: #4EDEB5;
@@ -341,7 +344,8 @@ html,
         padding-left: 17px;
         padding-right: 17px;
         font-size: 12px;
-        font-weight: 100;
+        font-weight: lighter;
+        color: #FFFFFF;
       }
     }
   }
