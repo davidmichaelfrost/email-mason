@@ -367,6 +367,9 @@ html,
     p {
       font-size: 14px;
       color: #383838;
+      hyphens: none;
+      padding-left: 25px;
+      padding-right: 25px;
     }
 
     .button {
