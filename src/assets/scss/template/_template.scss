@@ -399,22 +399,41 @@ html,
 // One Column Image Section
 //------------------------------------------
 .one-column-with-image {
-  background: ;
-  background-color: ;
+  background: #FFFFFF;
+  background-color: #FFFFFF;
 
   .columns {
 
     h2 {
-
+      font-size: 24px;
+      color: #383838;
     }
 
     p {
-
+      font-size: 14px;
+      color: #383838;
+      line-height: 1.8;
+      hyphens: none;
     }
 
     .button {
+      text-transform: uppercase;
 
-      
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: #4EDEB5;
+      }
     }
   }
 }
