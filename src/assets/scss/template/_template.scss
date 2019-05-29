@@ -295,7 +295,6 @@ html,
     }
   }
 }
-
 //--------------------------------------------
 // End of Blog Mason Section
 
@@ -350,6 +349,49 @@ html,
     }
   }
 }
-
 //---------------------------------------------
 // End of Top Writers Section
+
+// One Column No Image Section
+//-----------------------------------------------
+.one-column-no-image {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+
+  .columns {
+    h2 {
+      font-size: 24px;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      hyphens: none;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: #4EDEB5;
+      }
+    }
+  }
+}
+//-----------------------------------------------
+// End of One Column No Image Section
