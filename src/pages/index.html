@@ -234,84 +234,121 @@ subject: Mason Email
 
 <!-- Blog Mason 2 Section Start -->
 <container>
-  <row>
-    <columns large="2"></columns>
-    <columns large="8">
+  <row class="blog-mason-2">
+    <columns small="1" large="2"></columns>
+    <columns small="10" large="8">
       <spacer size="68"></spacer>
-      <h2>Masonry Blog</h2>
+      <h2 class="text-center">Masonry Blog</h2>
       <spacer size="52"></spacer>
-      <row>
-        <columns>
+      <!-- Post 1 Start -->
+      <row class="post-1">
+        <columns small="1" large="1"></columns>
+        <columns small="10" large="10">
           <spacer size="42"></spacer>
           <h3>Top Three Famous Bohemian Collectibles</h3>
           <spacer size="19"></spacer>
-          <img src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
-          <p>9 January</p>
+          <img class="float-left" src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+          <p class="calendar-date">9 January</p>
           <spacer size="20"></spacer>
           <p>Apple has already seen tons of consumer interest in Apple Pay, the mobile payments platform it rolled out with the iPhone 6 and iOS 8...</p>
           <spacer size="23"></spacer>
           <button href="#">Read More</button>
           <spacer size="50"></spacer>
         </columns>
+        <columns small="1" large="1"></columns>
       </row>
+      <!-- Post 1 End -->
+      <!-- Post 2 Start -->
+      <row class="post-2">
+        <columns small="10" large="5">
+          <row>
+            <columns small="1" large="1"></columns>
+            <columns small="11" large="5">
+              <spacer size="42"></spacer>
+              <img class="post-image" src="{{root}}/assets/img/blog-mason-w217-h151.png" alt="Peach colored rectangle">
+            </columns>
+          </row>
+        </columns>
+        <columns small="10" large="7">
+          <row>
+            <columns small="1" large="1"></columns>
+            <columns small="11" large="6">
+              <spacer size="42"></spacer>
+              <h3>Going Masonry Style!</h3>
+              <spacer size="15"></spacer>
+              <img class="float-left calendar-icon" src="{{root}}/assets/img/blog-mason-calendar-icon-white.png" alt="Calendar icon">
+              <p class="calendar-date">29 December</p>
+              <spacer size="15"></spacer>
+              <p>Computer manufacturer Lenovo is getting flak for selling laptops with marketing software that experts...</p>
+              <spacer size="28"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="60"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
+        </columns>
+      </row>
+      <!-- Post 2 End -->
+      <!-- Image Row 1 Start -->
       <row>
         <columns>
-          <spacer size="42"></spacer>
-          <img src="{{root}}/assets/img/blog-mason-w217-h151.png" alt="Peach colored rectangle">
+          <img class="small-float-center" src="{{root}}/assets/img/blog-mason-image-full.png" alt="Peach colored square">
         </columns>
         <columns>
-          <spacer size="42"></spacer>
-          <h3>Going Masonry Style!</h3>
-          <spacer size="19"></spacer>
-          <img src="{{root}}/assets/img/blog-mason-calendar-icon-white.png" alt="Calendar icon">
-          <p>29 December</p>
-          <spacer size="20"></spacer>
-          <p>Computer manufacturer Lenovo is getting flak for selling laptops with marketing software that experts...</p>
-          <spacer size="28"></spacer>
-          <button href="#">Read More</button>
-          <spacer size="60"></spacer>
+          <img class="small-float-center" src="{{root}}/assets/img/blog-mason-image-full.png" alt="Peach colored square">
         </columns>
       </row>
-      <row>
-        <columns>
-          <img src="{{root}}/assets/img/blog-mason-image-full.png" alt="Peach colored square">
+      <!-- Image Row 1 End -->
+      <!-- Post 3 Start -->
+      <row class="post-3">
+        <columns small="10" large="6">
+          <row>
+            <columns small="1" large="1"></columns>
+            <columns small="11" large="7">
+              <spacer size="38"></spacer>
+              <h3>Style Sunglasses with MacBook</h3>
+              <spacer size="18"></spacer>
+              <img class="float-left calendar-icon" src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="calendar-date">17 June</p>
+              <spacer size="15"></spacer>
+              <p>Car team now numbers 200, with the addition in recent months of experts on batteries and robotics, sources tell...</p>
+              <spacer size="30"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="51"></spacer>
+            </columns>
+          </row>
         </columns>
-        <columns>
-          <img src="{{root}}/assets/img/blog-mason-image-full.png" alt="Peach colored square">
+        <columns small="10" large="6">
+          <row>
+            <columns small="1" large=""></columns>
+            <columns small="10" large="6">
+              <spacer size="38"></spacer>
+              <img src="{{root}}/assets/img/blog-mason-w217-h151.png" alt=" Peach colored rectangle">
+              <spacer size="51"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
         </columns>
       </row>
-      <row>
-        <columns>
-          <spacer size="38"></spacer>
-          <h3>Style Sunglasses with MacBook</h3>
-          <spacer size="18"></spacer>
-          <img src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
-          <p>17 June</p>
-          <spacer size="20"></spacer>
-          <p>Car team now numbers 200, with the addition in recent months of experts on batteries and robotics, sources tell...</p>
-          <spacer size="30"></spacer>
-          <button href="#">Read More</button>
-          <spacer size="51"></spacer>
-        </columns>
-        <columns>
-          <spacer size="38"></spacer>
-          <img src="{{root}}/assets/img/blog-mason-w217-h151.png" alt=" Peach colored rectangle">
-        </columns>
-      </row>
+      <!-- Post 3 End -->
+      <!-- Image Row 2 Start -->
       <row>
         <columns>
           <img src="{{root}}/assets/img/blog-mason-w600-h300.png" alt="Peach colored rectangle">
         </columns>
       </row>
-      <row>
+      <!-- Image Row 2 End -->
+      <!-- Button Row Start -->
+      <row class="expanded-button">
         <columns>
           <spacer size="46"></spacer>
-          <button href="#">More Articles</button>
+          <button class="expanded" href="#">More Articles</button>
           <spacer size="59"></spacer>
         </columns>
       </row>
+      <!-- Button Row End -->
     </columns>
-    <columns large="2"></columns>
+    <columns small="1" large="2"></columns>
   </row>
 </container>
 <!-- Blog Mason 2 Section End -->
