@@ -670,3 +670,52 @@ html,
 }
 //-----------------------------------
 // End of Blog Mason 2 Section
+
+// Two Column Section
+//--------------------------------
+.two-column {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+
+  .columns {
+    h3 {
+      font-size: 24px;
+      hyphens: none;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      hyphens: none;
+      color: #383838;
+      font-weight: lighter;
+      line-height: 1.7;  
+    }
+
+    .right-column {
+      padding-right: 38px;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        font-size: 12px;
+        color: #4EDEB5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+//--------------------------------
+// End of Two Column Section
