@@ -719,3 +719,72 @@ html,
 }
 //--------------------------------
 // End of Two Column Section
+
+// One Column Section
+//--------------------------------
+.one-column {
+  background: #4EDEB5;
+  background-color: #4EDEB5;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      color: #383838;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      line-height: 1.7;
+      hyphens: none;
+      padding-right: 17px;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #4EDEB5;
+        background-color: #4EDEB5;
+        border: 1px solid #FFFFFF;
+      }
+
+      a {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        color: #FFFFFF;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  // Expanded button section
+  .expanded-button {
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: none; 
+      }
+
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #4EDEB5;
+        font-size: 12px;
+      }
+    }
+  }
+}
+//--------------------------------
+// End of One Column Section
