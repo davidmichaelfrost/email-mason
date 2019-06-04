@@ -461,21 +461,30 @@ subject: Mason Email
 
 <!-- Blog Mason 3 Section Start -->
 <container>
-  <row>
-    <columns></columns>
-    <columns>
-      <h2>Masonry Blog</h2>
+  <row class="blog-mason-3">
+    <columns large="2"></columns>
+    <columns large="8">
+      <spacer size="62"></spacer>
+      <h2 class="text-center">Masonry Blog</h2>
+      <spacer size="52"></spacer>
       <row>
         <!-- Left Column Start -->
         <columns>
-          <row>
-            <columns>
+          <row class="left-post">
+            <columns large="1"></columns>
+            <columns large="10">
+              <spacer size="38"></spacer>
               <h3>Real Estate Investing</h3>
-              <img src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
-              <p>26 November</p>
+              <spacer size="10"></spacer>
+              <img class="float-left calendar-icon" src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="date-text">26 November</p>
+              <spacer size="20"></spacer>
               <p>Friday to extend Greece’s financial rescue by four months, averting a potential cash crunch in...</p>
+              <spacer size="27"></spacer>
               <button href="#">Read More</button>
+              <spacer size="43"></spacer>
             </columns>
+            <columns large="1"></columns>
           </row>
           <row>
             <img src="{{root}}/assets/img/blog-mason-w200-h200.png" alt="Peach colored square">
@@ -492,29 +501,45 @@ subject: Mason Email
               <img src="{{root}}/assets/img/blog-mason-w200-h200.png" alt="Peach colored square">
             </columns>
           </row>
-          <row>
-            <columns>
-              <img src="{{root}}/assets/img/blog-mason-w116-h136.png" alt="Peach colored rectangle">
+          <row class="middle-post">
+            <columns large="1"></columns>
+            <columns large="10">
+              <spacer size="43"></spacer>
+              <img class="text-center" src="{{root}}/assets/img/blog-mason-w116-h136.png" alt="Peach colored rectangle">
+              <spacer size="23"></spacer>
               <h3>Impose capital controls in Greece</h3>
-              <img src="" alt="">
-              <p>31 August</p>
+              <spacer size="17"></spacer>
+              <img class="float-left calendar-icon" src="{{root}}/assets/img/blog-mason-calendar-icon-white.png" alt="Calendar icon">
+              <p class="date-text">31 August</p>
+              <spacer size="26"></spacer>
               <p>Millions of people throughout the world are keen on saving up some gold. Some do it every year...</p>
+              <spacer size="33"></spacer>
               <button href="#">Read More</button>
+              <spacer size="43"></spacer>
             </columns>
+            <columns large="1"></columns>
           </row>
         </columns>
         <!-- Middle Column End -->
         <!-- Right Column Start -->
         <columns>
-          <row>
-            <columns>
-              <img src="{{root}}/assets/img/blog-mason-w116-h136.png" alt="Peach colored rectangle">
+          <row class="right-post">
+            <columns large="1"></columns>
+            <columns large="10">
+              <spacer size="42"></spacer>
+              <img class="text-center" src="{{root}}/assets/img/blog-mason-w116-h136.png" alt="Peach colored rectangle">
+              <spacer size="22"></spacer>
               <h3>Indonesia's interest rate</h3>
-              <img src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
-              <p>1 April</p>
+              <spacer size="17"></spacer>
+              <img class="float-left calendar-icon" src="{{root}}/assets/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="date-text">1 April</p>
+              <spacer size="24"></spacer>
               <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum... </p>
+              <spacer size="26"></spacer>
               <button href="#">Read More</button>
+              <spacer size="40"></spacer>
             </columns>
+            <columns large="1"></columns>
           </row>
           <row>
             <columns>
@@ -524,13 +549,15 @@ subject: Mason Email
         </columns>
         <!-- Right Column End -->
       </row>
-      <row>
+      <row class="expanded-button">
         <columns>
-          <button href="#">More Articles</button>
+          <spacer size="47"></spacer>
+          <button class="expanded" href="#">More Articles</button>
+          <spacer size="61"></spacer>
         </columns>
       </row>
     </columns>
-    <columns></columns>
+    <columns large="2"></columns>
   </row>
 </container>
 <!-- Blog Mason 3 Section End -->
