@@ -565,12 +565,13 @@ subject: Mason Email
 <!-- Pricing Section Start -->
 <container>
   <row class="pricing">
-    <columns large="2"></columns>
-    <columns large="8">
+    <columns small="2" large="2"></columns>
+    <columns small="8" large="8">
       <spacer size="65"></spacer>
       <h2 class="text-center">Check out our Pricings</h2>
       <spacer size="60"></spacer>
       <row class="pricing-plans">
+        <!-- Left Pricing Column Start -->
         <columns class="left-pricing-column">
           <row class="pricing-column-title">
             <columns>
@@ -598,7 +599,14 @@ subject: Mason Email
               </row>
             </columns>
           </row>
+          <row class="column-spacer">
+            <columns>
+              <spacer size="40"></spacer>
+            </columns>
+          </row>
         </columns>
+        <!-- Left Pricing Column End -->
+        <!-- Middle Pricing Column Start -->
         <columns class="middle-pricing-column">
           <row class="pricing-column-title">
             <columns>
@@ -626,7 +634,14 @@ subject: Mason Email
               </row>
             </columns>
           </row>
+          <row class="column-spacer">
+              <columns>
+                <spacer size="40"></spacer>
+              </columns>
+            </row>
         </columns>
+        <!-- Middle Pricing Column End -->
+        <!-- Right Pricing Column Start -->
         <columns class="right-pricing-column">
           <row class="pricing-column-title">
             <columns>
@@ -654,11 +669,17 @@ subject: Mason Email
               </row>
             </columns>
           </row>
+          <row class="column-spacer">
+              <columns>
+                <spacer size="40"></spacer>
+              </columns>
+            </row>
         </columns>
+        <!-- Right Pricing Column End -->
       </row>
-      <spacer size="80"></spacer>
+      <spacer size="40"></spacer>
     </columns>
-    <columns large="2"></columns>
+    <columns small="2" large="2"></columns>
   </row>
 </container>
 <!-- Pricing Section End -->
