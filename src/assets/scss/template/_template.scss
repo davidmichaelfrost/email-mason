@@ -968,3 +968,97 @@ html,
 }
 //--------------------------------------
 // End of Blog mason 3 Section
+
+// Pricing Section
+//-------------------------
+.pricing {
+  background: #383838;
+  background-color: #383838;
+
+
+  .columns {
+    .left-pricing-column {
+      padding-right: 15px !important;
+    }
+
+    .middle-pricing-column {
+      padding-left: 7px !important;
+      padding-right: 7px !important;
+    }
+
+    .right-pricing-column {
+      padding-left: 15px !important;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+
+    h3 {
+      font-size: 19px;
+      color: #FFFFFF;
+    }
+
+    h4 {
+      span {
+        font-size: 24px;
+        color: #383838;
+        font-weight: bold;
+      }
+
+      font-size: 14px;
+      color: #383838;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 13px;
+      color: #8D9499;
+    }
+
+    .pricing-column-title {
+      background: #4EDEB5;
+      background-color: #4EDEB5;
+      border-top: 1px solid #707070;
+      border-left: 1px solid #707070;
+      border-right: 1px solid #707070;
+      font-size: 19px;
+      color: #FFFFFF;
+    }
+
+    .column-info {
+      background: #FFFFFF;
+      background-color: #FFFFFF;
+      border: 1px solid #707070;
+    }
+
+    .column-spacer {
+      background: #383838;
+      background-color: #383838;
+    }
+
+    .button {
+      text-transform: uppercase;
+      margin: 0 auto;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        font-size: 12px;
+        color: #4EDEB5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+//------------------------
+// End of Pricing Section
