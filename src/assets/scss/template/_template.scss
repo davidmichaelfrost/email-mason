@@ -1062,3 +1062,72 @@ html,
 }
 //------------------------
 // End of Pricing Section
+
+// Footer Section
+//-----------------------
+
+// Top Footer Section
+//------------------------------
+.top-footer {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+}
+//-------------------------------
+// End of Top Footer Section
+
+// Bottom Footer Section
+//----------------------------------
+.bottom-footer {
+  background: #F3F3F3;
+  background-color: #F3F3F3;
+
+  .columns {
+    h3 {
+      font-size: 38px;
+      color: #383838;
+      font-weight: normal;
+    }
+    
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #F3F3F3;
+        background-color: #F3F3F3;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        font-size: 12px;
+        color: #4EDEB5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-weight: lighter;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      color: #383838;
+    }
+
+    .unsubscribe {
+      color: #4EDEB5;
+    }
+
+    .menu {
+      .menu-item {
+        padding-bottom: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+//----------------------------------
+// End of Bottom Footer Section
+
+//-----------------------
+// End of Footer Section
