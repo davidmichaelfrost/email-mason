@@ -5,55 +5,1122 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #E4E5EA !important;
+  background-color: #E4E5EA !important;
 }
 
-.container.header {
-  background: #f3f3f3;
-}
+// Header Section
+// -------------------------------------------
 
-.body-drip {
-  border-top: 8px solid #663399;
-}
+// North Header Section
+// -------------------------------------------
+.north-header {
+  background: #4EDEB5;
+  background-color: #4EDEB5;
 
-// Full Width Headers
-.header {
-  background: #8a8a8a;
-}
+  .columns {
+    h2 {
+      color: #ffffff;
+      padding-bottom: 0;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
 
-.header .columns {
-  padding-bottom: 0;
-}
+    .menu {
+      .menu-item{
+        padding-left: 0;
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
+        .nav-facebook-icon {
+          padding-right: 12px;
+        }
 
-.header .wrapper-inner {
-  padding: 20px;
+        .nav-twitter-icon {
+          padding-left: 15px;
+          padding-right: 20px;
+        }
+      }
+      
+      a {
+        font-size: 13px;
+        color: #383838;
+        font-weight: 100;
+      }
+    }
+  }
 }
+// -------------------------------------------
+// End of North Header Section
 
-.header .container {
-  background: transparent;
-}
+// South Header Section
+// -------------------------------------------
+.south-header {
+  background: #383838;
+  background-color: #383838;
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
+  .columns {
+    h1 {
+      color: #4EDEB5;
+      hyphens: none;
+    }
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
+    p {
+      color: #ffffff;
+      hyphens: none;
+      font-size: 14px;
+      font-weight: 100;
+      padding-right: 54px;
+      line-height: 1.7;
+    }
 
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
+    .button {
+      text-transform: uppercase;
 
-.wrapper.secondary {
-  background: #f3f3f3;
+      a {
+        font-size: 12px;
+        font-weight: 100;
+        color: #4EDEB5;
+      }
+    }
+
+    .ghost-button {
+      
+      table td {
+        border: 1px solid #4EDEB5;
+        background: #383838;
+        background-color: #383938;
+      }
+    }
+  }
 }
+//--------------------------------------------
+// End of South Header Section
+
+//--------------------------------------------
+// End of Header Section
+
+// Blog Mason Section
+//--------------------------------------------
+.blog-mason {
+  background: #F3F3F3;
+  background-color: #F3F3F3;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      font-weight: 100;
+      color: #383838;
+    }
+  }
+  
+  // West Column
+  // North West Column
+  .north-west {
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+
+    .columns {
+      padding-left: 42px !important;
+      
+      h3 {
+        font-size: 24px;
+        color: #383838;
+      }
+
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date {
+        color: #4EDEB5;
+        font-size: 12px;
+      }
+
+      p {
+        padding-right: 41px !important;
+        font-size: 14px;
+        color: #383838;
+        line-height: 1.8;
+        hyphens: none;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #FFFFFF;
+          background-color: #FFFFFF;
+          border: 1px solid #4EDEB5; 
+        }
+
+        a {
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #4EDEB5;
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  // South West Column
+  .south-west {
+    background: #4EDEB5;
+    background-color: #4EDEB5;
+
+    .columns {
+      padding-left: 42px !important;
+      padding-right: 42px !important;
+
+      h3 {
+        font-size: 24px;
+        color: #ffffff;
+        hyphens: none;
+      }
+
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date-light {
+        color: #ffffff;
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 1.8;
+        hyphens: none;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #4EDEB5;
+          background-color: #4EDEB5;
+          border: 1px solid #FFFFFF; 
+        }
+
+        a {
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #FFFFFF;
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  // East Column
+  // North East Column
+  .north-east {
+    background: #383838;
+    background-color: #383838;
+
+    .columns {
+      padding-left: 42px !important;
+      padding-right: 35px !important;
+
+      h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+        hyphens: none;
+      }
+
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date {
+        color: #4EDEB5;
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #FFFFFF;
+        hyphens: none;
+        line-height: 1.8;
+        padding-right: 10px;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #383838;
+          background-color: #383838;
+          border: 1px solid #4EDEB5; 
+        }
+
+        a {
+          padding-left: 17px;
+          padding-right: 17px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #4EDEB5;
+          font-size: 12px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  // Expanded button section
+  .expanded-button {
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: none; 
+      }
+
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #4EDEB5;
+        font-size: 12px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+//--------------------------------------------
+// End of Blog Mason Section
+
+// Top Writers Section
+//--------------------------------------------
+.top-writers {
+  background: #4EDEB5;
+  background-color: #4EDEB5;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      color: #383838;
+    }
+
+    h3 {
+      font-size: 23px;
+      color: #FFFFFF; 
+    }
+
+    h4 {
+      font-size: 13px;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      padding-right: 10px;
+      hyphens: none;
+    }
+
+    .button {
+      text-transform: uppercase;
+      margin: 0 auto;
+
+      table td {
+        background: #4EDEB5;
+        background-color: #4EDEB5;
+        border: 1px solid #FFFFFF;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+//---------------------------------------------
+// End of Top Writers Section
+
+// One Column No Image Section
+//-----------------------------------------------
+.one-column-no-image {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+
+  .columns {
+    h2 {
+      font-size: 24px;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      hyphens: none;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: #4EDEB5;
+      }
+    }
+  }
+}
+//-----------------------------------------------
+// End of One Column No Image Section
+
+// One Column Image Section
+//------------------------------------------
+.one-column-with-image {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+
+  .columns {
+
+    h2 {
+      font-size: 24px;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      line-height: 1.8;
+      hyphens: none;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: #4EDEB5;
+      }
+    }
+  }
+}
+//------------------------------------------
+// End of One Column Image Section
+
+// Callout Section
+//------------------------------------------
+.callout {
+  background: #383838;
+  background-color: #383838;
+
+  .columns {
+    h2 {
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #FFFFFF;
+      padding-right: 10px;
+      hyphens: none;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #383838;
+        background-color: #383838;
+        border: 1px solid #FFFFFF;
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 12px;
+        font-weight: lighter;
+        font-size: 12px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+//------------------------------------------
+// End of Callout Section
+
+// Blog Mason 2 Section
+//-----------------------------------
+.blog-mason-2 {
+  background: #F3F3F3;
+  background-color: #F3F3F3;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      color: #383838;
+      font-weight: lighter;
+    }
+  }
+
+  .post-1 {
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+
+    .columns {
+      h3 {
+        font-size: 24px;
+        color: #383838;
+        hyphens: none;
+      }
+
+      img {
+        padding-right: 8px !important;
+      }
+
+      .calendar-date {
+        font-size: 12px;
+        color: #4EDEB5;
+      }
+
+      p {
+        font-size: 14px;
+        color: #383838;
+        hyphens: none;
+        line-height: 1.8;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #FFFFFF;
+          background-color: #FFFFFF;
+          border: 1px solid #4EDEB5;
+        }
+
+        a {
+          font-size: 12px;
+          color: #4EDEB5;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+  
+  .post-2 {
+    background: #4EDEB5;
+    background-color: #4EDEB5;
+
+    .columns {
+      h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-weight: lighter;
+      }
+
+      .calendar-icon {
+        padding-right: 8px;
+      }
+
+      .calendar-date {
+        font-size: 12px;
+        color: #FFFFFF;
+      }
+
+      p {
+        padding-right: 5px;
+        font-size: 14px;
+        color: #FFFFFF;
+        line-height: 1.7;
+        font-weight: lighter;
+        hyphens: none;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #4EDEB5;
+          background-color: #4EDEB5;
+          border: 1px solid #FFFFFF;
+        }
+
+        a {
+          font-size: 12px;
+          color: #FFFFFF;
+          font-weight: lighter;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 17px;
+          padding-right: 17px;
+        }
+      }
+    }
+  }
+
+  .post-3 {
+    background: #383838;
+    background-color: #383838;
+
+    .columns {
+      h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+      }
+
+      .calendar-icon {
+        padding-right: 8px; 
+      }
+
+      .calendar-date {
+        font-size: 12px;
+        color: #4EDEB5;
+      }
+
+      p {
+        font-size: 14px;
+        color: #FFFFFF;
+        line-height: 1.7;
+        hyphens: none;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #383838;
+          background-color: #383838;
+          border: 1px solid #4EDEB5;
+        }
+
+        a {
+          font-size: 12px;
+          font-weight: lighter;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 17px;
+          padding-right: 17px;
+          color: #4EDEB5;
+        }
+      }
+    }
+  }
+
+  // Expanded button section
+  .expanded-button {
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: none; 
+      }
+
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #4EDEB5;
+        font-size: 12px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+//-----------------------------------
+// End of Blog Mason 2 Section
+
+// Two Column Section
+//--------------------------------
+.two-column {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+
+  .columns {
+    h3 {
+      font-size: 24px;
+      hyphens: none;
+      color: #383838;
+    }
+
+    p {
+      font-size: 14px;
+      hyphens: none;
+      color: #383838;
+      font-weight: lighter;
+      line-height: 1.7;  
+    }
+
+    .right-column {
+      padding-right: 38px;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        font-size: 12px;
+        color: #4EDEB5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+//--------------------------------
+// End of Two Column Section
+
+// One Column Section
+//--------------------------------
+.one-column {
+  background: #4EDEB5;
+  background-color: #4EDEB5;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      color: #383838;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+
+    p {
+      font-size: 14px;
+      color: #383838;
+      line-height: 1.7;
+      hyphens: none;
+      padding-right: 17px;
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #4EDEB5;
+        background-color: #4EDEB5;
+        border: 1px solid #FFFFFF;
+      }
+
+      a {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        color: #FFFFFF;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  // Expanded button section
+  .expanded-button {
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: none; 
+      }
+
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #4EDEB5;
+        font-size: 12px;
+      }
+    }
+  }
+}
+//--------------------------------
+// End of One Column Section
+
+// Blog Mason 3 Section
+//-------------------------------------
+.blog-mason-3 {
+  background: #F3F3F3;
+  background-color: #F3F3F3;
+
+  .columns {
+    h2 {
+      font-size: 38px;
+      color: #383838;
+    }
+
+    .left-post {
+      background: #FFFFFF;
+      background-color: #FFFFFF;
+      h3 {
+        font-size: 24px;
+        color: #383838;
+      }
+
+      .calendar-icon {
+        padding-right: 8px;
+      }
+
+      .date-text {
+        font-size: 12px;
+        color: #4EDEB5;
+        font-weight: lighter;
+      }
+
+      p {
+        font-size: 14px;
+        color: #383838;
+        hyphens: none;
+        line-height: 1.7;
+      }
+
+      .button {
+        text-transform: uppercase;
+
+        table td {
+          background: #FFFFFF;
+          background-color: #FFFFFF;
+          border: 1px solid #4EDEB5;
+        }
+
+        a {
+          font-size: 12px;
+          font-weight: lighter;
+          color: #4EDEB5;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 17px;
+          padding-right: 17px;
+        }
+      }
+    }
+
+    .middle-post {
+      background: #4EDEB5;
+      background-color: #4EDEB5;
+
+      .columns {
+        h3 {
+          font-size: 24px;
+          color: #FFFFFF;
+        }
+
+        .calendar-icon {
+          padding-right: 8px;
+        }
+
+        .date-text {
+          font-size: 12px;
+          color: #FFFFFF;
+        }
+
+        p {
+          font-size: 14px;
+          color: #FFFFFF;
+          line-height: 1.7;
+          hyphens: none;
+        }
+
+        .button {
+          text-transform: uppercase;
+
+          table td {
+            background: #4EDEB5;
+            background-color: #4EDEB5;
+            border: 1px solid #FFFFFF;
+          }
+
+          a {
+            font-size: 12px;
+            color: #FFFFFF;
+            font-weight: lighter;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 17px;
+            padding-right: 17px;
+          }
+        }
+      }
+    }
+
+    .right-post {
+      background: #383838;
+      background-color: #383838;
+
+      .columns {
+        h3 {
+          font-size: 24px;
+          color: #FFFFFF;
+          hyphens: none;
+        }
+
+        .calendar-icon {
+          padding-right: 8px;
+        }
+
+        .date-text {
+          font-size: 12px;
+          color: #4EDEB5;
+        }
+
+        p {
+          font-size: 14px;
+          color: #FFFFFF;
+          hyphens: none;
+          line-height: 1.7;
+        }
+
+        .button {
+          text-transform: uppercase;
+
+          table td {
+            background: #383838;
+            background-color: #383838;
+            border: 1px solid #4EDEB5;
+          }
+
+          a {
+            font-size: 12px;
+            color: #4EDEB5;
+            font-weight: lighter;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 17px;
+            padding-right: 17px;
+          }
+        }
+      }
+    }
+  }
+
+  // Expanded button section
+  .expanded-button {
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: none; 
+      }
+
+      a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #4EDEB5;
+        font-size: 12px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+//--------------------------------------
+// End of Blog mason 3 Section
+
+// Pricing Section
+//-------------------------
+.pricing {
+  background: #383838;
+  background-color: #383838;
+
+
+  .columns {
+    .left-pricing-column {
+      padding-right: 15px !important;
+    }
+
+    .middle-pricing-column {
+      padding-left: 7px !important;
+      padding-right: 7px !important;
+    }
+
+    .right-pricing-column {
+      padding-left: 15px !important;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+
+    h3 {
+      font-size: 19px;
+      color: #FFFFFF;
+    }
+
+    h4 {
+      span {
+        font-size: 24px;
+        color: #383838;
+        font-weight: bold;
+      }
+
+      font-size: 14px;
+      color: #383838;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 13px;
+      color: #8D9499;
+    }
+
+    .pricing-column-title {
+      background: #4EDEB5;
+      background-color: #4EDEB5;
+      border-top: 1px solid #707070;
+      border-left: 1px solid #707070;
+      border-right: 1px solid #707070;
+      font-size: 19px;
+      color: #FFFFFF;
+    }
+
+    .column-info {
+      background: #FFFFFF;
+      background-color: #FFFFFF;
+      border: 1px solid #707070;
+    }
+
+    .column-spacer {
+      background: #383838;
+      background-color: #383838;
+    }
+
+    .button {
+      text-transform: uppercase;
+      margin: 0 auto;
+
+      table td {
+        background: #FFFFFF;
+        background-color: #FFFFFF;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        font-size: 12px;
+        color: #4EDEB5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+//------------------------
+// End of Pricing Section
+
+// Footer Section
+//-----------------------
+
+// Top Footer Section
+//------------------------------
+.top-footer {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+}
+//-------------------------------
+// End of Top Footer Section
+
+// Bottom Footer Section
+//----------------------------------
+.bottom-footer {
+  background: #F3F3F3;
+  background-color: #F3F3F3;
+
+  .columns {
+    h3 {
+      font-size: 38px;
+      color: #383838;
+      font-weight: normal;
+    }
+    
+    .button {
+      text-transform: uppercase;
+
+      table td {
+        background: #F3F3F3;
+        background-color: #F3F3F3;
+        border: 1px solid #4EDEB5;
+      }
+
+      a {
+        font-size: 12px;
+        color: #4EDEB5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-weight: lighter;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      color: #383838;
+    }
+
+    .unsubscribe {
+      color: #4EDEB5;
+    }
+
+    .menu {
+      .menu-item {
+        padding-bottom: 0 !important;
+      }
+    }
+  }
+}
+//----------------------------------
+// End of Bottom Footer Section
+
+//-----------------------
+// End of Footer Section
