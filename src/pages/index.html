@@ -1,55 +1,685 @@
 ---
 layout: index-layout
-subject: My Email Templates
+subject: Mason Email
 ---
 
-<spacer size="16"></spacer>
-
+<!-- Blog Mason Section Start -->
 <container>
-
-  <spacer size="24"></spacer>
-  
-  <row>
-    <columns small="12">
-
-    <p class="lead">Hi there!</p>
-    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="http://foundation.zurb.com/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
-
-    <spacer size="16"></spacer>
-
-    <center>
-      <menu class="vertical">
-        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
-        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
-        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
-        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
-        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
-        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
-        <item href="{{root}}order.html" target="_blank">Order Template</item>
-        <item href="{{root}}password.html" target="_blank">Password Template</item>
-        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
-        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
-        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
-      </menu>
-    </center>
-
-    <spacer size="16"></spacer>
-
-    <p>Happy Coding,</p>
-    <p>The Foundation Team</p>
-
-
-    <spacer size="16"></spacer>
-
+  <row class="blog-mason">
+    <columns large="2"></columns>
+    <columns large="8">
+      <spacer size="60"></spacer>
+      <h2 class="text-center">Masonry Blog</h2>
+      <spacer size="50"></spacer>
+      <row>
+        <!-- West Column Start -->
+        <columns large="4">
+          <!-- North West Column Start -->
+          <row class="north-west">
+            <columns>
+              <spacer size="35"></spacer>
+              <h3>Going Masonry Style!</h3>
+              <spacer size="20"></spacer>
+              <img class="float-left" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="calendar-date">29 March</p>
+              <spacer size="20"></spacer>
+              <p>The mobile payment service is running into trouble with UnionPay, China's state-owned credit- and debit-card operator...</p>
+              <spacer size="26"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="36"></spacer>
+            </columns>
+          </row>
+          <!-- North West Column End -->
+          <!-- South West Column Start -->
+          <row class="south-west">
+            <columns>
+              <spacer size="40"></spacer>
+              <img class="small-float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-image.png" alt="Peach square">
+              <spacer size="30"></spacer>
+              <h3>Top 7 Wireless Enterprise Solutions</h3>
+              <spacer size="25"></spacer>
+              <img class="float-left" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon-white.png" alt="Calendar icon">
+              <p class="calendar-date-light">31 March</p>
+              <spacer size="20"></spacer>
+              <p>Hot on the heels of its new $1,200 Walkman, Sony has unveiled a new product for audiophiles...</p>
+              <spacer size="25"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="30"></spacer>
+            </columns>
+          </row>
+          <!-- South West Column End -->
+        </columns>
+        <!-- West Column End -->
+        <!-- East Column Start -->
+        <columns large="4">
+          <!-- North East Column Start -->
+          <row class="north-east">
+            <columns large="4">
+              <spacer size="42"></spacer>
+              <img class="small-float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-image.png" alt="Peach square">
+              <spacer size="34"></spacer>
+              <h3>Top Three Famous Collectibles</h3>
+              <spacer size="24"></spacer>
+              <img class="float-left" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="calendar-date">31 April</p>
+              <spacer size="27"></spacer>
+              <p>Hacker have stolen as much as $1 billion fron banks around the world, according to a prominent cybersecurity firm...</p>
+              <spacer size="30"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="48"></spacer>
+            </columns>
+          </row>
+          <!-- North East Column End -->
+          <!-- South East Column Start -->
+          <row>
+            <columns large="4">
+              <img class="small-float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-image-full.png" alt="Peach square">
+            </columns>
+          </row>
+          <!-- South East Column End -->
+        </columns>
+        <!-- East Column End -->
+      </row>
+      <row class="expanded-button">
+        <columns>
+          <spacer size="55"></spacer>
+          <button href="#" class="expanded">More Articles</button>
+          <spacer size="55"></spacer>
+        </columns>
+      </row>
     </columns>
+    <columns large="2"></columns>
   </row>
 </container>
+<!-- Blog Mason Section End -->
 
-<spacer size="16"></spacer>
+<!-- Top Writers Section Start -->
+<container>
+  <row class="top-writers">
+    <columns small="2" large="2"></columns>
+    <columns small="8" large="8">
+      <spacer size="60"></spacer>
+      <!-- Section Heading Start -->
+      <row>
+        <columns>
+          <h2 class="text-center">Our Top Writers</h2>
+        </columns>
+      </row>
+      <!-- Section Heading End -->
+      <spacer size="26"></spacer>
+      <!-- Section Columns Start -->
+      <row>
+        <!-- Left Column Start -->
+        <columns>
+          <spacer size="26"></spacer>
+          <img class="float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/top-writers-image.png" alt="Peach color shape">
+          <spacer size="36"></spacer>
+          <h3 class="text-center">Steven Bobish</h3>
+          <spacer size="23"></spacer>
+          <h4 class="text-center">Art Director / COOL Design</h4>
+          <spacer size="30"></spacer>
+          <p class="text-center">The Mars Exploration Rover Opportunity reaches another height as it celebrates...</p>
+          <spacer size="28"></spacer>
+          <button href="#">Read More</button>
+          <spacer size="34"></spacer>
+        </columns>
+        <!-- Left Column End -->
+        <!-- Middle Column Start -->
+        <columns>
+          <spacer size="26"></spacer>
+          <img class="float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/top-writers-image.png" alt="Peach color shape">
+          <spacer size="36"></spacer>
+          <h3 class="text-center">Richard Dowkins</h3>
+          <spacer size="23"></spacer>
+          <h4 class="text-center">Art Director / COOL Design</h4>
+          <spacer size="30"></spacer>
+          <p class="text-center">With the bulk of the earnings season behind us, the stock market appears to be...</p>
+          <spacer size="28"></spacer>
+          <button href="#">Read More</button>
+          <spacer size="34"></spacer>
+        </columns>
+        <!-- Middle Column Start -->
+        <!-- Right Column Start -->
+        <columns>
+          <spacer size="26"></spacer>
+          <img class="float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/top-writers-image.png" alt="Peach color shape">
+          <spacer size="36"></spacer>
+          <h3 class="text-center">Samantha Kenzi</h3>
+          <spacer size="23"></spacer>
+          <h4 class="text-center">Art Director / COOL Design</h4>
+          <spacer size="30"></spacer>
+          <p class="text-center">Amazon said Monday it remains committed to developing unmanned...</p>
+          <spacer size="28"></spacer>
+          <button class="" href="#">Read More</button>
+          <spacer size="34"></spacer>
+        </columns>
+        <!-- Right Column End -->
+      </row>
+      <!-- Section Columns End -->
+      <spacer size="34"></spacer>
+    </columns>
+    <columns small="2" large="2"></columns>
+  </row>
+</container>
+<!-- Top Writers Section End -->
 
-<center>
-  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="http://zurb.com/">ZURB</a> </small>
-</center>
+<!-- One Column No Image Section Start-->
+<container>
+  <row class="one-column-no-image">
+    <columns small="12" large="2"></columns>
+    <columns small="12" large="8">
+      <spacer size="68"></spacer>
+      <h2 class="text-center">Commercial & Personal</h2>
+      <spacer size="35"></spacer>
+      <p class="text-center">No spec - no matter how appealing - should ever be viewed in a vacuum, and the decision to actually commit your time and money to a consumer electronics investment will hopefully have been informed by a multitude of factors.</p>
+      <spacer size="33"></spacer>
+      <center>
+        <button href="#">Read More</button>
+      </center>
+      <spacer size="38"></spacer>
+    </columns>
+    <columns small="12" large="2"></columns>
+  </row>
+</container>
+<!-- One Column No Image Section Start-->
 
-<spacer size="16"></spacer>
+<!-- One Column Image Section Start -->
+<container>
+  <row class="one-column-with-image">
+    <columns small="2" large="2"></columns>
+    <columns small="8" large="8">
+      <spacer size="38"></spacer>
+      <img class="float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/one-column-square-large.png" alt="">
+      <spacer size="35"></spacer>
+      <h2 class="text-center">MacBook and clutter?</h2>
+      <spacer size="35"></spacer>
+      <p class="text-center">Computer manufacturer Lenovo is in hot water this week after pre-installing software that tracks your Internet activity to show you personalized ads. While that sounds a little shady on its own, it gets even worse.</p>
+      <spacer size="32"></spacer>
+      <center>
+        <button href="#">Read More</button>
+      </center>
+      <spacer size="67"></spacer>
+    </columns>
+    <columns small="2" large="2"></columns>
+  </row>
+</container>
+<!-- One Column Image Section End -->
 
+<!-- Callout Section Start -->
+<container>
+  <row class="callout">
+    <columns small="1" large="2"></columns>
+    <columns small="10" large="8">
+      <spacer size="80"></spacer>
+      <row>
+        <columns small="12" large="3">
+          <spacer size="12"></spacer>
+          <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/callout-image.png" alt="Peach colored shape">
+          <spacer size="33"></spacer>
+        </columns>
+        <columns small="12" large="5">
+          <h2>Ease your shop operations</h2>
+          <spacer size="33"></spacer>
+          <p>Amazon said Monday it remains committed to developing unmanned aerial devices to deliver products to customers, even as proposed federal regulations seemed to rule out the possibility of a drone delivery service.</p>
+          <spacer size="33"></spacer>
+          <button href="#">Buy Now!</button>
+          <spacer size="94"></spacer>
+        </columns>
+      </row>
+    </columns>
+    <columns small="1" large="2"></columns>
+  </row>
+</container>
+<!-- Callout Section End -->
+
+<!-- Blog Mason 2 Section Start -->
+<container>
+  <row class="blog-mason-2">
+    <columns small="1" large="2"></columns>
+    <columns small="10" large="8">
+      <spacer size="68"></spacer>
+      <h2 class="text-center">Masonry Blog</h2>
+      <spacer size="52"></spacer>
+      <!-- Post 1 Start -->
+      <row class="post-1">
+        <columns small="1" large="1"></columns>
+        <columns small="10" large="10">
+          <spacer size="42"></spacer>
+          <h3>Top Three Famous Bohemian Collectibles</h3>
+          <spacer size="19"></spacer>
+          <img class="float-left" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+          <p class="calendar-date">9 January</p>
+          <spacer size="20"></spacer>
+          <p>Apple has already seen tons of consumer interest in Apple Pay, the mobile payments platform it rolled out with the iPhone 6 and iOS 8...</p>
+          <spacer size="23"></spacer>
+          <button href="#">Read More</button>
+          <spacer size="50"></spacer>
+        </columns>
+        <columns small="1" large="1"></columns>
+      </row>
+      <!-- Post 1 End -->
+      <!-- Post 2 Start -->
+      <row class="post-2">
+        <columns small="10" large="5">
+          <row>
+            <columns small="1" large="1"></columns>
+            <columns small="11" large="5">
+              <spacer size="42"></spacer>
+              <img class="post-image" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w217-h151.png" alt="Peach colored rectangle">
+            </columns>
+          </row>
+        </columns>
+        <columns small="10" large="7">
+          <row>
+            <columns small="1" large="1"></columns>
+            <columns small="11" large="6">
+              <spacer size="42"></spacer>
+              <h3>Going Masonry Style!</h3>
+              <spacer size="15"></spacer>
+              <img class="float-left calendar-icon" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon-white.png" alt="Calendar icon">
+              <p class="calendar-date">29 December</p>
+              <spacer size="15"></spacer>
+              <p>Computer manufacturer Lenovo is getting flak for selling laptops with marketing software that experts...</p>
+              <spacer size="28"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="60"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
+        </columns>
+      </row>
+      <!-- Post 2 End -->
+      <!-- Image Row 1 Start -->
+      <row>
+        <columns>
+          <img class="small-float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-image-full.png" alt="Peach colored square">
+        </columns>
+        <columns>
+          <img class="small-float-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-image-full.png" alt="Peach colored square">
+        </columns>
+      </row>
+      <!-- Image Row 1 End -->
+      <!-- Post 3 Start -->
+      <row class="post-3">
+        <columns small="10" large="6">
+          <row>
+            <columns small="1" large="1"></columns>
+            <columns small="11" large="7">
+              <spacer size="38"></spacer>
+              <h3>Style Sunglasses with MacBook</h3>
+              <spacer size="18"></spacer>
+              <img class="float-left calendar-icon" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="calendar-date">17 June</p>
+              <spacer size="15"></spacer>
+              <p>Car team now numbers 200, with the addition in recent months of experts on batteries and robotics, sources tell...</p>
+              <spacer size="30"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="51"></spacer>
+            </columns>
+          </row>
+        </columns>
+        <columns small="10" large="6">
+          <row>
+            <columns small="1" large=""></columns>
+            <columns small="10" large="6">
+              <spacer size="38"></spacer>
+              <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w217-h151.png" alt=" Peach colored rectangle">
+              <spacer size="51"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
+        </columns>
+      </row>
+      <!-- Post 3 End -->
+      <!-- Image Row 2 Start -->
+      <row>
+        <columns>
+          <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w600-h300.png" alt="Peach colored rectangle">
+        </columns>
+      </row>
+      <!-- Image Row 2 End -->
+      <!-- Button Row Start -->
+      <row class="expanded-button">
+        <columns>
+          <spacer size="46"></spacer>
+          <button class="expanded" href="#">More Articles</button>
+          <spacer size="59"></spacer>
+        </columns>
+      </row>
+      <!-- Button Row End -->
+    </columns>
+    <columns small="1" large="2"></columns>
+  </row>
+</container>
+<!-- Blog Mason 2 Section End -->
+
+<!-- Two Column Section Start -->
+<container>
+  <row class="two-column">
+    <columns small="1" large="2"></columns>
+    <columns small="10" large="8">
+      <spacer size="70"></spacer>
+      <row>
+        <columns small="10" large="4">
+          <row>
+            <columns>
+              <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/two-column-w290-h200.png" alt="">
+              <spacer size="31"></spacer>
+              <h3>Phone Repair Tips</h3>
+              <spacer size="25"></spacer>
+              <p>New companies are facing lots of difficulties in filing the taxes forms according to current taxation rule. This is because filing taxes requires expertise by the companies...</p>
+              <spacer size="27"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="37"></spacer>
+            </columns>
+          </row>
+        </columns>
+        <columns small="10" large="4">
+          <row>
+            <columns>
+              <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/two-column-w290-h200.png" alt="">
+              <spacer size="31"></spacer>
+              <h3>Pound climbs as jobs</h3>
+              <spacer size="25"></spacer>
+              <p class="right-column">Don’t be frightened of payday loans. Many people are intimidated by payday loans due to not understanding them. If you have any kind of interest in getting a payday...</p>
+              <spacer size="5"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="37"></spacer>
+            </columns>
+          </row>
+        </columns>
+      </row>
+      <spacer size="37"></spacer>
+    </columns>
+    <columns small="1" large="2"></columns>
+  </row>
+</container>
+<!-- Two Column Section End -->
+
+<!-- One Column Section Start -->
+<container>
+  <row class="one-column">
+    <columns small="1" large="2"></columns>
+    <columns small="10" large="8">
+      <spacer size="70"></spacer>
+      <h2 class="text-center">In the Spotlight...</h2>
+      <spacer size="70"></spacer>
+      <row>
+        <columns large="2">
+          <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/one-column-shape.png" alt="Peach colored shape">
+          <spacer size="30"></spacer>
+        </columns>
+        <columns large="6">
+          <h3>10 Beauty Tips</h3>
+          <spacer size="30"></spacer>
+          <p>New companies are facing lots of difficulties in filing the taxes forms according to current taxation rule. This is because filing taxes requires expertise by the companies and need to be done quickly to avoid penalty. But, it is not easy to process the complicated...</p>
+          <spacer size="27"></spacer>
+          <button href="#">Read More</button>
+          <spacer size="58"></spacer>
+        </columns>
+      </row>
+      <row>
+        <columns large="2">
+          <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/one-column-shape.png" alt="Peach colored shape">
+          <spacer size="30"></spacer>
+        </columns>
+        <columns large="6">
+          <h3>Modern Warfare Release</h3>
+          <spacer size="30"></spacer>
+          <p>Step require a scaled-down loan because normally, banks will request you to fill up a collection of applications that components your financial back ground this option is much simpler...</p>
+          <spacer size="27"></spacer>
+          <button href="#">Read More</button>
+          <spacer size="58"></spacer>
+        </columns>
+      </row>
+      <row>
+        <columns large="2">
+          <img src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/one-column-shape.png" alt="Peach colored shape">
+          <spacer size="30"></spacer>
+        </columns>
+        <columns large="6">
+          <h3>Mascotte of the Month: Bobby</h3>
+          <spacer size="30"></spacer>
+          <p>Friday to extend Greece’s financial rescue by four months, averting a potential cash crunch in March that could have forced the country out of the currency area...</p>
+          <spacer size="27"></spacer>
+          <button href="#">Read More</button>
+          <spacer size="58"></spacer>
+        </columns>
+      </row>
+      <row class="expanded-button">
+        <columns>
+          <spacer size="8"></spacer>
+          <button class="expanded" href="#">More Articles</button>
+          <spacer size="74"></spacer>
+        </columns>
+      </row>
+    </columns>
+    <columns small="1" large="2"></columns>
+  </row>
+</container>
+<!-- One Column Section End -->
+
+<!-- Blog Mason 3 Section Start -->
+<container>
+  <row class="blog-mason-3">
+    <columns small="1" large="2"></columns>
+    <columns small="10" large="8">
+      <spacer size="62"></spacer>
+      <h2 class="text-center">Masonry Blog</h2>
+      <spacer size="52"></spacer>
+      <row>
+        <!-- Left Column Start -->
+        <columns>
+          <row class="left-post">
+            <columns small="1" large="1"></columns>
+            <columns small="10" large="10">
+              <spacer size="38"></spacer>
+              <h3>Real Estate Investing</h3>
+              <spacer size="10"></spacer>
+              <img class="float-left calendar-icon" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="date-text">26 November</p>
+              <spacer size="20"></spacer>
+              <p>Friday to extend Greece’s financial rescue by four months, averting a potential cash crunch in...</p>
+              <spacer size="27"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="43"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
+          <row>
+            <img class="text-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w200-h200.png" alt="Peach colored square">
+          </row>
+          <row>
+            <img class="text-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w200-h200.png" alt="Peach colored square">
+          </row>
+        </columns>
+        <!-- Left Column End -->
+        <!-- Middle Column Start -->
+        <columns>
+          <row>
+            <columns>
+              <img class="text-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w200-h200.png" alt="Peach colored square">
+            </columns>
+          </row>
+          <row class="middle-post">
+            <columns small="1" large="1"></columns>
+            <columns small="10" large="10">
+              <spacer size="43"></spacer>
+              <img class="text-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w116-h136.png" alt="Peach colored rectangle">
+              <spacer size="23"></spacer>
+              <h3>Impose capital controls in Greece</h3>
+              <spacer size="17"></spacer>
+              <img class="float-left calendar-icon" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon-white.png" alt="Calendar icon">
+              <p class="date-text">31 August</p>
+              <spacer size="26"></spacer>
+              <p>Millions of people throughout the world are keen on saving up some gold. Some do it every year...</p>
+              <spacer size="33"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="43"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
+        </columns>
+        <!-- Middle Column End -->
+        <!-- Right Column Start -->
+        <columns>
+          <row class="right-post">
+            <columns small="1" large="1"></columns>
+            <columns small="10" large="10">
+              <spacer size="42"></spacer>
+              <img class="text-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w116-h136.png" alt="Peach colored rectangle">
+              <spacer size="22"></spacer>
+              <h3>Indonesia's interest rate</h3>
+              <spacer size="17"></spacer>
+              <img class="float-left calendar-icon" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-calendar-icon.png" alt="Calendar icon">
+              <p class="date-text">1 April</p>
+              <spacer size="24"></spacer>
+              <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum... </p>
+              <spacer size="26"></spacer>
+              <button href="#">Read More</button>
+              <spacer size="40"></spacer>
+            </columns>
+            <columns small="1" large="1"></columns>
+          </row>
+          <row>
+            <columns>
+              <img class="text-center" src="https://raw.githubusercontent.com/davidmichaelfrost/email-mason/master/etc/build/img/blog-mason-w200-h200.png" alt="Peach colored square">
+            </columns>
+          </row>
+        </columns>
+        <!-- Right Column End -->
+      </row>
+      <row class="expanded-button">
+        <columns>
+          <spacer size="47"></spacer>
+          <button class="expanded" href="#">More Articles</button>
+          <spacer size="61"></spacer>
+        </columns>
+      </row>
+    </columns>
+    <columns small="1" large="2"></columns>
+  </row>
+</container>
+<!-- Blog Mason 3 Section End -->
+
+<!-- Pricing Section Start -->
+<container>
+  <row class="pricing">
+    <columns small="2" large="2"></columns>
+    <columns small="8" large="8">
+      <spacer size="65"></spacer>
+      <h2 class="text-center">Check out our Pricings</h2>
+      <spacer size="60"></spacer>
+      <row class="pricing-plans">
+        <!-- Left Pricing Column Start -->
+        <columns class="left-pricing-column">
+          <row class="pricing-column-title">
+            <columns>
+              <spacer size="23"></spacer>
+              <h3 class="text-center">Basic Plan</h3>
+              <spacer size="23"></spacer>
+            </columns>
+          </row>
+          <row class="column-info">
+            <columns>
+              <spacer size="23"></spacer>
+              <h4 class="text-center"><span>$30</span> / mo</h4>
+              <spacer size="20"></spacer>
+              <p class="text-center">10 Pages</p>
+              <spacer size="18"></spacer>
+              <p class="text-center">10Gb data</p>
+              <spacer size="18"></spacer>
+              <p class="text-center">HTML/CSS/JS</p>
+              <spacer size="28"></spacer>
+              <row>
+                <columns>
+                  <button href="#">Select</button>
+                  <spacer size="25"></spacer>
+                </columns>
+              </row>
+            </columns>
+          </row>
+          <row class="column-spacer">
+            <columns>
+              <spacer size="40"></spacer>
+            </columns>
+          </row>
+        </columns>
+        <!-- Left Pricing Column End -->
+        <!-- Middle Pricing Column Start -->
+        <columns class="middle-pricing-column">
+          <row class="pricing-column-title">
+            <columns>
+              <spacer size="23"></spacer>
+              <h3 class="text-center">Pro Plan</h3>
+              <spacer size="23"></spacer>
+            </columns>
+          </row>
+          <row class="column-info">
+            <columns>
+              <spacer size="23"></spacer>
+              <h4 class="text-center"><span>$60</span> / mo</h4>
+              <spacer size="20"></spacer>
+              <p class="text-center">20 Pages</p>
+              <spacer size="18"></spacer>
+              <p class="text-center">20Gb data</p>
+              <spacer size="18"></spacer>
+              <p class="text-center">HTML/CSS/JS</p>
+              <spacer size="28"></spacer>
+              <row>
+                <columns>
+                  <button href="#">Select</button>
+                  <spacer size="25"></spacer>
+                </columns>
+              </row>
+            </columns>
+          </row>
+          <row class="column-spacer">
+              <columns>
+                <spacer size="40"></spacer>
+              </columns>
+            </row>
+        </columns>
+        <!-- Middle Pricing Column End -->
+        <!-- Right Pricing Column Start -->
+        <columns class="right-pricing-column">
+          <row class="pricing-column-title">
+            <columns>
+              <spacer size="23"></spacer>
+              <h3 class="text-center">Power Plan</h3>
+              <spacer size="23"></spacer>
+            </columns>
+          </row>
+          <row class="column-info">
+            <columns>
+              <spacer size="23"></spacer>
+              <h4 class="text-center"><span>$80</span> / mo</h4>
+              <spacer size="20"></spacer>
+              <p class="text-center">Unlimited Pages</p>
+              <spacer size="18"></spacer>
+              <p class="text-center">25Gb data</p>
+              <spacer size="18"></spacer>
+              <p class="text-center">HTML/CSS/JS</p>
+              <spacer size="28"></spacer>
+              <row>
+                <columns>
+                  <button href="#">Select</button>
+                  <spacer size="25"></spacer>
+                </columns>
+              </row>
+            </columns>
+          </row>
+          <row class="column-spacer">
+              <columns>
+                <spacer size="40"></spacer>
+              </columns>
+            </row>
+        </columns>
+        <!-- Right Pricing Column End -->
+      </row>
+      <spacer size="40"></spacer>
+    </columns>
+    <columns small="2" large="2"></columns>
+  </row>
+</container>
+<!-- Pricing Section End -->
